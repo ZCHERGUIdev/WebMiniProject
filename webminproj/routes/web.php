@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\TestController;
+use Faker\Provider\ar_EG\Text;
+use Illuminate\Auth\Events\Login;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +19,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/login/{name}',[TestController::class,'login']);
+
+
