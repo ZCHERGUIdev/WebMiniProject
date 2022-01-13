@@ -19,6 +19,7 @@
         <style>
          html,body {
 	     height: 100%;
+		 background-image: url("https://nearmetrade.com/local/public/vendor/restaurant-mangalore6.jpg");
          }
 
 body.my-login-page {
